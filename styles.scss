@@ -1,0 +1,38 @@
+/**
+ * PRESETS - JUST FOR DEMO PURPOSES
+ * You don't need it, but you can.
+ * By David Maciejewski (macx.io)
+ */
+
+$default-spacing: 10px;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  padding: ($default-spacing*2);
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #161c22;
+  background: #fafcff;
+  border: 1px solid blue;
+}
+
+img {
+  max-width: 100%;
+}
+
+.l-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: $default-spacing;
+}
